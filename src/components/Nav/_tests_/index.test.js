@@ -1,12 +1,12 @@
 import React from 'react'
 import { render, cleanup } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
-import Gallery from '..'
+import Nav from '..';
 
 
 afterEach(cleanup)
 
-describe('Nav component', () => {
+describe('Nav component renders', () => {
   it('renders', () => {
     render(<Nav />);
   });
